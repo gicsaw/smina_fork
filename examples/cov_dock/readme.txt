@@ -1,0 +1,1 @@
+python cov_dock.py -l pep1 -o docking/3S3J_pep1.pdb -i "CC(C)C[C@H](NC(=O)[C@H](CCC(=O)CCl)NC(=O)[C@@H]1CCCN1C(C)=O)C(=O)N1CCC[C@H]1C(=O)N[C@@H](Cc1ccccc1)C(N)=O" -r fix/3S3JAB_receptor.pdbqt -c A --cys_idx 277 --config config.txt -t tmp
